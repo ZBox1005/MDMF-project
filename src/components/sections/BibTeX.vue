@@ -3,11 +3,10 @@ export default {
   data() {
     return {
       bibtex: [
-        "@article{junyaohu2023template,",
-        "    title={Academic Project Page Template Vue},",
-        "    author={Hu, Junyao},",
-        "    journal={GitHub},",
-        "    year={2023}",
+        "@article{zhang2026mdmf,",
+        "    title={Micro-Defects Expose Macro-Fakes: Detecting AI-Generated Images via Local Distributional Shifts},",
+        "    author={Zhang, Boxuan and Zhu, Jianing and Wang, Qifan and Liu, Jiang and Tang, Ruixiang},",
+        "    year={2026}",
         "}",
       ],
     }
@@ -29,9 +28,9 @@ export default {
 </script>
 
 <template>
-  <div>
+  <div id="bibtex-anchor">
     <el-divider />
-      
+
       <el-row justify="center">
         <h1 class="section-title">BibTeX</h1>
       </el-row>
@@ -41,7 +40,7 @@ export default {
           <div style="text-align: center; color: var(--el-text-color-secondary); margin-top: 20px;">🖱️ Click here to copy BibTex.</div> 
           <el-row>
               <el-scrollbar style="margin: 0px 20px 5px 20px;">
-                <pre id="bibtex"><code v-for="b in bibtex">{{ b }}<br/></code></pre>
+                <pre id="bibtex"><code v-for="b in bibtex" :key="b">{{ b }}<br/></code></pre>
               </el-scrollbar>
           </el-row>
         </el-col>

@@ -1,3 +1,9 @@
 # Abstract
 
-Aute amet minim mollit nisi adipisicing cupidatat. Duis sit tempor consequat ea nisi qui consequat deserunt. Officia duis sit mollit dolor officia occaecat. Minim aute excepteur nostrud adipisicing magna nisi amet. Laborum aliqua ut ex cillum qui ipsum tempor officia sunt. Reprehenderit est ex sit fugiat laborum reprehenderit proident deserunt sint pariatur cillum voluptate irure. Voluptate laboris velit veniam exercitation sunt eiusmod occaecat velit fugiat ad.
+Recent generative models can produce images that appear highly realistic, raising challenges in distinguishing real and AI-generated images. Yet existing detectors based on pre-trained feature extractors tend to over-rely on global semantics, limiting sensitivity to the critical micro-defects. 
+
+In this work, we propose ***Micro-Defects expose Macro-Fakes*** (**MDMF**), a local distribution-aware detection framework that amplifies micro-scale statistical irregularities into macro-level distributional discrepancies. 
+
+To avoid localized forensic cues being diluted by plain aggregation, we introduce a learnable ***Patch Forensic Signature*** (**PFS**) that projects semantic patch embeddings into a compact forensic latent space. We then use ***Maximum Mean Discrepancy*** (**MMD**) to quantify distributional discrepancies between generated and real images. Our theory-grounded analysis shows that patch-wise modeling yields provably larger discrepancies when localized forensic signals are present in generated images, enabling more reliable separation from real images. 
+
+Extensive experiments demonstrate that MDMF consistently outperforms baseline detectors across multiple benchmarks, validating its general effectiveness.

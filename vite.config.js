@@ -23,7 +23,7 @@ export default defineConfig({
       ],
     }),
   ],
-  base:'/academic-project-page-template-vue',
+  base:'/MDMF-project/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
