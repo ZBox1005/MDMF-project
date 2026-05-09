@@ -60,13 +60,13 @@ const addresses = [
   },
   {
     address_flag: '2',
-    name: 'UT Austin',
+    name: 'The University of Texas at Austin',
     icon: 'resources/ut_logo.png',
     homepage: 'https://www.utexas.edu/',
   },
   {
     address_flag: '3',
-    name: 'Meta',
+    name: 'Meta AI',
     icon: 'resources/Meta_logo.png',
     homepage: 'https://about.meta.com/',
   },
