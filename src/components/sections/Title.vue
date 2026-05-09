@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 
 import { ElIcon } from 'element-plus'
-import { Document, Notebook } from '@element-plus/icons-vue'
+import { Document, Notebook, MagicStick } from '@element-plus/icons-vue'
 
 // 论文 logo
 const logo = 'resources/logo_full.png'
@@ -106,6 +106,12 @@ const buttons = [
     name: 'Code',
     link: '#',
     iconImg: 'resources/github_logo.svg',
+  },
+  {
+    disabled: false,
+    name: 'Demo',
+    link: 'https://kevinc6986.github.io/mdmf_project/MDMF.html',
+    component: MagicStick,
   },
   {
     disabled: false,
