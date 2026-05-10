@@ -104,7 +104,7 @@ const buttons = [
   {
     disabled: false,
     name: 'Code',
-    link: '#',
+    link: 'https://github.com/ZBox1005/MDMF',
     iconImg: 'resources/github_logo.svg',
   },
   {
