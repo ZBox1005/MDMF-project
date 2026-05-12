@@ -98,7 +98,7 @@ const buttons = [
   {
     disabled: false,
     name: 'arXiv',
-    link: '#',
+    link: 'https://arxiv.org/abs/2605.09296',
     iconImg: 'resources/arxiv_logo.svg',
   },
   {
