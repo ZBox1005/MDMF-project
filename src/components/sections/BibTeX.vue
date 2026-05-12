@@ -4,9 +4,10 @@ export default {
     return {
       bibtex: [
         "@article{zhang2026mdmf,",
-        "    title={Micro-Defects Expose Macro-Fakes: Detecting AI-Generated Images via Local Distributional Shifts},",
-        "    author={Zhang, Boxuan and Zhu, Jianing and Wang, Qifan and Liu, Jiang and Tang, Ruixiang},",
-        "    year={2026}",
+        "  title={Micro-Defects Expose Macro-Fakes: Detecting AI-Generated Images via Local Distributional Shifts},",
+        "  author={Zhang, Boxuan and Zhu, Jianing and Wang, Qifan and Liu, Jiang and Tang, Ruixiang},",
+        "  journal={arXiv preprint arXiv:2605.09296},",
+        "  year={2026}",
         "}",
       ],
     }
