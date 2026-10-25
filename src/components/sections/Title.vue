@@ -110,7 +110,7 @@ const buttons = [
   {
     disabled: false,
     name: 'Demo',
-    link: '#',
+    link: 'demo/MDMF.html',
     component: MagicStick,
   },
   {
